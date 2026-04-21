@@ -1,6 +1,6 @@
 {
   "name": "envguard",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Fail-fast environment validation with zero magic.",
   "license": "MIT",
   "type": "commonjs",
