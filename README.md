@@ -1,10 +1,17 @@
 # envguard
 
 The fastest way to make broken environment variables fail before your app does.
+Package: `@krazybean/envguard`
 
 [![npm version](https://img.shields.io/npm/v/%40krazybean%2Fenvguard.svg)](https://www.npmjs.com/package/%40krazybean%2Fenvguard) [![npm downloads](https://img.shields.io/npm/dm/%40krazybean%2Fenvguard.svg)](https://www.npmjs.com/package/%40krazybean%2Fenvguard) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) ![typescript](https://img.shields.io/badge/typescript-typed-blue?logo=typescript&logoColor=white)
 
 ![envguard demo](./media/demo.gif)
+
+## Install
+
+```bash
+npm install @krazybean/envguard
+```
 
 ## Why This Exists
 
