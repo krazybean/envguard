@@ -2,7 +2,7 @@
 
 The fastest way to make broken environment variables fail before your app does.
 
-[![npm version](https://img.shields.io/npm/v/envguard.svg)](https://www.npmjs.com/package/envguard)
+[![npm version](https://img.shields.io/npm/v/envguard.svg)](https://www.npmjs.com/package/envguard) [![npm downloads](https://img.shields.io/npm/dm/envguard.svg)](https://www.npmjs.com/package/envguard) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) ![typescript](https://img.shields.io/badge/typescript-typed-blue?logo=typescript&logoColor=white)
 
 ![envguard demo](./media/demo.gif)
 
