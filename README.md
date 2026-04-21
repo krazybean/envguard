@@ -23,3 +23,15 @@ const env = loadEnv({
   DATABASE_URL: "string",
 });
 ```
+
+## Copy-paste this
+
+```ts
+// add this to your app entrypoint
+import { loadEnv } from "@krazybean/envguard"
+
+const env = loadEnv({
+  PORT: "number",
+  DATABASE_URL: "string",
+})
+```
