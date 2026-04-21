@@ -2,6 +2,8 @@
 
 The fastest way to make broken environment variables fail before your app does.
 
+[![npm version](https://img.shields.io/npm/v/envguard.svg)](https://www.npmjs.com/package/envguard)
+
 ![envguard demo](./media/demo.gif)
 
 ## Why This Exists
