@@ -23,12 +23,10 @@ You should know your environment is valid the moment your app boots.
 ## The Fix
 
 ```ts
-import { loadEnv } from "envguard";
-
 const env = loadEnv({
   PORT: "number",
   DATABASE_URL: "string",
-});
+})
 ```
 
 ## Copy-paste this
