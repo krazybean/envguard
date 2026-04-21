@@ -1,0 +1,35 @@
+{
+  "name": "envguard",
+  "version": "0.1.0",
+  "description": "Fail-fast environment validation with zero magic.",
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "rm -rf dist",
+    "demo": "tsx demo/demo.ts",
+    "prepublishOnly": "npm run clean && npm run build",
+    "release": "npm run clean && npm run typecheck && npm test && npm run build",
+    "test": "node --test --import tsx test/**/*.test.ts",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.18",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=18.18"
+  }
+}
